@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+}
+
+.banner-content button {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.row {
+    margin: 20px;
+}
+
+.row h2 {
+    margin-bottom: 10px;
+}
+
+.row-posters {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.row-posters img {
+    width: 200px;
+    margin-right: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.row-posters img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
